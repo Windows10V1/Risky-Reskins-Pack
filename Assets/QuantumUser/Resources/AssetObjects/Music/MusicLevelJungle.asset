@@ -16,8 +16,8 @@ MonoBehaviour:
     Path: QuantumUser/Resources/AssetObjects/Music/MusicLevelJungle
     Guid:
       Value: 350428014609539980
-  clip: {fileID: 8300000, guid: 88177899a83869d4c9c516f64eef1ebe, type: 3}
-  loopStartSeconds: 0.48
-  loopEndSeconds: 84.96
-  fastClip: {fileID: 8300000, guid: 4af50ec441727c24d8216ba53eb38fc6, type: 3}
-  speedupFactor: 1.25
+  clip: {fileID: 8300000, guid: d30d43865cd6f224a9d82dd18a406c19, type: 3}
+  fastClip: {fileID: 8300000, guid: ca998b92bdb64484fbac93aa55413b65, type: 3}
+  loopStartSeconds: 0
+  loopEndSeconds: 99999
+  speedupFactor: 1.1

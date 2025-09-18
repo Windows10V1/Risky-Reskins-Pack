@@ -1,7 +1,34 @@
 fileFormatVersion: 2
-guid: c9ff4ce0377c9794db0985380f171999
+guid: 2894985f02b76324a8800fb0221a5a66
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6585171321547495273
+    second: wonder-bg_0
+  - first:
+      213: 7052490172295084441
+    second: wonder-bg_1
+  - first:
+      213: -7351389807721745756
+    second: wonder-bg_2
+  - first:
+      213: 778738030087539682
+    second: wonder-bg_3
+  - first:
+      213: 5207242654006052781
+    second: wonder-bg_4
+  - first:
+      213: -5195711351052953407
+    second: wonder-bg_5
+  - first:
+      213: -7656956339977436396
+    second: wonder-bg_6
+  - first:
+      213: 4936173480727604793
+    second: wonder-bg_7
+  - first:
+      213: -5506026137641967562
+    second: wonder-bg_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,12 +70,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,7 +92,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -94,7 +121,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Server
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,111 +150,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonus-2_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd0539bd792366b4d99e7919ab6c97e5
-      internalID: -1678934709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonus-2_1
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 320
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4c248b9648c94f4e9c7eb2c22ff6fe6
-      internalID: 1330114560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonus-2_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26cd442ed1dd99e428a890d356dc9d16
-      internalID: -91979392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonus-2_3
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac17d74cfc1e2d74c81454108c0302af
-      internalID: -959668823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonus-2_4
+      name: wonder-bg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 512
-        height: 64
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4e5c97c8dad0e414a91ea6196fa7c13c
-      internalID: 1409197957
+      spriteID: 9679ded5d6a336b50800000000000000
+      internalID: 6585171321547495273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wonder-bg_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999f49d227a7fd160800000000000000
+      internalID: 7052490172295084441
       vertices: []
       indices: 
       edges: []
@@ -236,7 +197,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 772113afbe370ed49b166dbac6a2eaa9
     internalID: 0
     vertices: []
     indices: 
@@ -246,11 +207,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bonus-2_0: -1678934709
-      bonus-2_1: 1330114560
-      bonus-2_2: -91979392
-      bonus-2_3: -959668823
-      bonus-2_4: 1409197957
+      wonder-bg_0: 6585171321547495273
+      wonder-bg_1: 7052490172295084441
+      wonder-bg_2: -7351389807721745756
+      wonder-bg_3: 778738030087539682
+      wonder-bg_4: 5207242654006052781
+      wonder-bg_5: -5195711351052953407
+      wonder-bg_6: -7656956339977436396
+      wonder-bg_7: 4936173480727604793
+      wonder-bg_8: -5506026137641967562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
