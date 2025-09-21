@@ -51,14 +51,15 @@ public enum SoundEffect : byte {
     [SoundEffectData("player/walk/sand", 2)] Player_Walk_Sand = 93,
     [SoundEffectData("player/walk/water", 2)] Player_Walk_Water = 95,
 
-    [SoundEffectData("character/{char}/doublejump", 2)] Player_Voice_DoubleJump = 33,
+    [SoundEffectData("character/{char}/doublejump", 3)] Player_Voice_DoubleJump = 33,
     [SoundEffectData("character/{char}/lava_death")] Player_Voice_LavaDeath = 34,
     [SoundEffectData("character/{char}/mega_mushroom")] Player_Voice_MegaMushroom = 35,
     [SoundEffectData("character/{char}/selected")] Player_Voice_Selected = 36,
     [SoundEffectData("character/{char}/spinner_launch")] Player_Voice_SpinnerLaunch = 37,
-    [SoundEffectData("character/{char}/triplejump")] Player_Voice_TripleJump = 38,
-    [SoundEffectData("character/{char}/walljump", 2)] Player_Voice_WallJump = 39,
+    [SoundEffectData("character/{char}/triplejump", 3)] Player_Voice_TripleJump = 38,
+    [SoundEffectData("character/{char}/walljump", 3)] Player_Voice_WallJump = 39,
     [SoundEffectData("character/{char}/mega_mushroom_collect")] Player_Sound_MegaMushroom_Collect = 40, //HARDCODED: DO NOT CHANGE WITHOUT CHANGING POWERUPS SCRIPTABLES
+    [SoundEffectData("character/{char}/dead")] Player_Voice_Death = 115,
 
     //Powerup
     [SoundEffectData("powerup/1-up")] Powerup_1UP_Collect = 78, //HARDCODED: DO NOT CHANGE WITHOUT CHANGING POWERUPS SCRIPTABLES

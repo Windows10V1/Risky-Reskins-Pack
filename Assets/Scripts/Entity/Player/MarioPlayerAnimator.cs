@@ -927,8 +927,10 @@ namespace NSMB.Entities.Player {
 
             if (!IsReplayFastForwarding) {
                 PlaySound(IsMarioLocal(e.Entity) ? SoundEffect.Player_Sound_Death : SoundEffect.Player_Sound_DeathOthers);
+                PlaySound(SoundEffect.Player_Voice_Death);
                 
-                if (e.IsLava) {
+                if (e.IsLava)
+                {
                     PlaySound(SoundEffect.Player_Sound_LavaHiss);
                 }
             }
@@ -997,7 +999,7 @@ namespace NSMB.Entities.Player {
                 SpawnParticle(Enums.PrefabParticle.Player_WallJump.GetGameObject(), e.Position.ToUnityVector3() + particleOffset, rot);
 
                 PlaySound(SoundEffect.Player_Sound_WallJump);
-                PlaySound(SoundEffect.Player_Voice_WallJump, variant: (byte) UnityEngine.Random.Range(1, 3));
+                PlaySound(SoundEffect.Player_Voice_WallJump, variant: (byte) UnityEngine.Random.Range(1,3));
             }
             animator.SetTrigger("walljump");
         }
@@ -1157,10 +1159,10 @@ namespace NSMB.Entities.Player {
             // Voice SFX
             switch (e.JumpState) {
             case JumpState.DoubleJump:
-                PlaySound(SoundEffect.Player_Voice_DoubleJump, variant: (byte) UnityEngine.Random.Range(1, 3));
+                PlaySound(SoundEffect.Player_Voice_DoubleJump, variant: (byte) UnityEngine.Random.Range(1,3));
                 break;
             case JumpState.TripleJump:
-                PlaySound(SoundEffect.Player_Voice_TripleJump);
+                PlaySound(SoundEffect.Player_Voice_TripleJump, variant: (byte) UnityEngine.Random.Range(1,3));
                 break;
             }
 
