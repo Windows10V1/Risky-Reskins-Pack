@@ -59,18 +59,16 @@ MonoBehaviour:
     Y:
       RawValue: 294912
   UIColor:
-    R: 24
-    G: 178
-    B: 170
+    R: 0
+    G: 255
+    B: 0
     A: 255
   HidePlayersOnMinimap: 0
   SpawnBigPowerups: 1
   SpawnVerticalPowerups: 1
   MainMusic:
   - Id:
-      Value: 369157696319829885
-  - Id:
-      Value: 386427822095829515
+      Value: 402395666236747076
   InvincibleMusic:
     Id:
       Value: 289056355789154037
@@ -1400,17 +1398,17 @@ MonoBehaviour:
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 407352901268840283
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 378324509844551824
     Rotation: 0
     Flags: 0
   - Tile:
       Id:
-        Value: 0
+        Value: 463077350387414561
     Rotation: 0
     Flags: 0
   - Tile:

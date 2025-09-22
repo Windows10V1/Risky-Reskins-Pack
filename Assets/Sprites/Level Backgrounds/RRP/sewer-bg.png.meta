@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sewer-bg_0: -2829916226383088761
+      sewer-bg_1: -9196028126782909935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

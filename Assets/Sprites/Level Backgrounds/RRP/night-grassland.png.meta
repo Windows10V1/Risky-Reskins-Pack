@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      night-grassland_0: 8578609851364251072
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

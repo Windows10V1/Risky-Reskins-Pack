@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075af0e881e112348abe562216ddc298, type: 3}
+  m_Name: MusicLevelJungle-2
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/AssetObjects/Music/MusicLevelJungle-2
+    Guid:
+      Value: 513435139958737077
+  clip: {fileID: 8300000, guid: 4e7e60c95030923488f8e7c841833894, type: 3}
+  fastClip: {fileID: 8300000, guid: 904135c77bd6b68438600b2117754a57, type: 3}
+  loopStartSeconds: 0
+  loopEndSeconds: 99999
+  speedupFactor: 1.25

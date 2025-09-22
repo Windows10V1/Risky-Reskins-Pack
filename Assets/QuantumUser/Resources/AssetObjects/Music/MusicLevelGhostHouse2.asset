@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075af0e881e112348abe562216ddc298, type: 3}
+  m_Name: MusicLevelGhostHouse2
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/AssetObjects/Music/MusicLevelGhostHouse2
+    Guid:
+      Value: 369102410551204328
+  clip: {fileID: 8300000, guid: 63869c43d8f40fd4fba33c87113f57a8, type: 3}
+  fastClip: {fileID: 8300000, guid: 6654d4d8251b2fd49acf41e56a26f0ad, type: 3}
+  loopStartSeconds: 8.33
+  loopEndSeconds: 52.77
+  speedupFactor: 1.2

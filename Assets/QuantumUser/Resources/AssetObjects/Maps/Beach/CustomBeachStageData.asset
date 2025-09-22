@@ -68,9 +68,9 @@ MonoBehaviour:
   SpawnVerticalPowerups: 1
   MainMusic:
   - Id:
-      Value: 327903093328006158
-  - Id:
       Value: 464675801867036799
+  - Id:
+      Value: 327903093328006158
   InvincibleMusic:
     Id:
       Value: 289056355789154037
