@@ -12613,7 +12613,7 @@ PrefabInstance:
     - target: {fileID: 2430942710556662978, guid: f0fedafdb23ab6044bba0ac1de9e2d3a,
         type: 3}
       propertyPath: tension
-      value: 0.1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2430942710556662978, guid: f0fedafdb23ab6044bba0ac1de9e2d3a,
         type: 3}
