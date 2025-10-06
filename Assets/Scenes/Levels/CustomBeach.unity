@@ -12488,12 +12488,12 @@ PrefabInstance:
     - target: {fileID: 2728533984175912727, guid: 9d1829544a867764ea85ac4428593208,
         type: 3}
       propertyPath: damping
-      value: 0.98
+      value: 0.995
       objectReference: {fileID: 0}
     - target: {fileID: 2728533984175912727, guid: 9d1829544a867764ea85ac4428593208,
         type: 3}
       propertyPath: tension
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2728533984175912727, guid: 9d1829544a867764ea85ac4428593208,
         type: 3}
