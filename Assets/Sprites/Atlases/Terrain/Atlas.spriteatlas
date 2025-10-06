@@ -67,6 +67,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: ac78076d4544896479da61192cf1074b, type: 3}
     - {fileID: 2800000, guid: bfe4fc5b34b365540ae718a3ece32dc3, type: 3}
     - {fileID: 2800000, guid: 4ae337f4a6c99ba4687a08304d01053e, type: 3}
+    - {fileID: 2800000, guid: fc1d4d5fad1856d42b1d473759123845, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -1103,6 +1104,10 @@ SpriteAtlas:
     - 18672b4e92026df448d06fc811e08fc3: 6520820702182674956
     - 18672b4e92026df448d06fc811e08fc3: 1722470237677832252
     - 18672b4e92026df448d06fc811e08fc3: 5893547083715574885
+    - fc1d4d5fad1856d42b1d473759123845: -2998490812050094179
+    - fc1d4d5fad1856d42b1d473759123845: 1799459919
+    - fc1d4d5fad1856d42b1d473759123845: 159763318
+    - fc1d4d5fad1856d42b1d473759123845: -834741690
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 374128110, guid: a775520159383d847b8ce31256b06b01, type: 3}
@@ -2137,6 +2142,10 @@ SpriteAtlas:
   - {fileID: 6520820702182674956, guid: 18672b4e92026df448d06fc811e08fc3, type: 3}
   - {fileID: 1722470237677832252, guid: 18672b4e92026df448d06fc811e08fc3, type: 3}
   - {fileID: 5893547083715574885, guid: 18672b4e92026df448d06fc811e08fc3, type: 3}
+  - {fileID: -2998490812050094179, guid: fc1d4d5fad1856d42b1d473759123845, type: 3}
+  - {fileID: 1799459919, guid: fc1d4d5fad1856d42b1d473759123845, type: 3}
+  - {fileID: 159763318, guid: fc1d4d5fad1856d42b1d473759123845, type: 3}
+  - {fileID: -834741690, guid: fc1d4d5fad1856d42b1d473759123845, type: 3}
   m_PackedSpriteNamesToIndex:
   - desert_83
   - desert_82
@@ -3170,6 +3179,10 @@ SpriteAtlas:
   - 17 Snow (with ice)_104
   - 17 Snow (with ice)_105
   - 17 Snow (with ice)_100
+  - PB_0
+  - PB_1
+  - PB_2
+  - PB_3
   m_RenderDataMap: {}
   m_Tag: Atlas
   m_IsVariant: 0
