@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f2d2405d17cd80d46a4e14f40436612f
+guid: d2b7ce8634fa80e42b2fb63659a293e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3373568495408583166
-    second: Flower_0
+      213: 4159398687435752100
+    second: night-bonus_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,14 +46,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
-  spriteExtrude: 1
+  spriteMode: 2
+  spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flower_0
+      name: night-bonus_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
+        width: 256
         height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef117423ca251de20800000000000000
-      internalID: 3373568495408583166
+      spriteID: 4a285db911729b930800000000000000
+      internalID: 4159398687435752100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: night-bonus_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b16bb6c526e304ebf7036db44085d8
+      internalID: 466941040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: night-bonus_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0370697eda239949b50cbf26db64976
+      internalID: 1650533084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: night-bonus_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785805713e7d4a74f99c137676d41416
+      internalID: -1559670020
       vertices: []
       indices: 
       edges: []
@@ -151,7 +217,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: bfaa50b21c260c44aace2de8c4cc78ca
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +227,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Flower_0: 3373568495408583166
+      night-bonus_0: 4159398687435752100
+      night-bonus_1: 466941040
+      night-bonus_2: 1650533084
+      night-bonus_3: -1559670020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
