@@ -123,7 +123,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonus_2
+      name: bonus-bg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 193, z: 0, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fb1f3d395c51b4690cc2bb27ad6484
+      internalID: 1107220328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonus-bg_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 193, z: 0, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21628a1ee795e57418ba68d52e21e8a1
+      internalID: 879157027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonus-bg_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 193, z: 0, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2044b0272d05364409af164cf0fce77c
+      internalID: -1607425193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonus-bg_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 193, z: 0, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5f136a7e5e677469c81d761f0cae7d
+      internalID: 1830388912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonus-bg_4
       rect:
         serializedVersion: 2
         x: 0
@@ -131,21 +219,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 193, z: 0, w: 15}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa18ffcbecaddbc43bddae17722183f0
-      internalID: 1499270293
+      spriteID: c1ef21b29b6b7b846a562a1b53e9eca3
+      internalID: 1529250110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonus_3
+      name: bonus-bg_5
       rect:
         serializedVersion: 2
         x: 256
@@ -153,15 +241,59 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 193, z: 0, w: 15}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8032665dc7c74ba40b0c840003e3ac88
-      internalID: -1581199596
+      spriteID: c5626ac12bf2731409303cf58da0b621
+      internalID: 269408966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonus-bg_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 193, z: 0, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4581e4be00e4a408a2144ff5b152b2
+      internalID: -1678801208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonus-bg_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 193, z: 0, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db341a38248fa1f42aab358545ed3854
+      internalID: -252335539
       vertices: []
       indices: 
       edges: []
@@ -180,10 +312,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bonus_0: -376189282
-      bonus_1: -1669920324
-      bonus_2: 1499270293
-      bonus_3: -1581199596
+      bonus-bg_0: 1107220328
+      bonus-bg_1: 879157027
+      bonus-bg_2: -1607425193
+      bonus-bg_3: 1830388912
+      bonus-bg_4: 1529250110
+      bonus-bg_5: 269408966
+      bonus-bg_6: -1678801208
+      bonus-bg_7: -252335539
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1705,6 +1705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 420344210}
   - component: {fileID: 420344211}
+  - component: {fileID: 420344212}
   m_Layer: 21
   m_Name: Blue
   m_TagString: Untagged
@@ -1721,7 +1722,7 @@ Transform:
   m_GameObject: {fileID: 420344209}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 4.5, z: 11.5}
+  m_LocalPosition: {x: 4, y: 4, z: 11.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1771,17 +1772,42 @@ SpriteRenderer:
   m_SortingLayerID: -1013106893
   m_SortingLayer: -1
   m_SortingOrder: -4
-  m_Sprite: {fileID: 1499270293, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  m_Sprite: {fileID: 879157027, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 8, y: 9}
+  m_Size: {x: 8, y: 8}
   m_AdaptiveModeThreshold: 0.271
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!114 &420344212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420344209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c5d135866d4444088fd55baaa2ae03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisplaying: 1
+  frame: 1.9079437
+  runInEditor: 1
+  fps: 4
+  frames:
+  - {fileID: 1107220328, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  - {fileID: 879157027, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  - {fileID: -1607425193, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  - {fileID: 1830388912, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  colorblindModeFrames: []
+  useUnscaledDelta: 0
+  sRenderer: {fileID: 420344211}
+  image: {fileID: 0}
 --- !u!1 &496456190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,6 +3163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852669703}
   - component: {fileID: 852669704}
+  - component: {fileID: 852669705}
   m_Layer: 21
   m_Name: Red
   m_TagString: Untagged
@@ -3153,7 +3180,7 @@ Transform:
   m_GameObject: {fileID: 852669702}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28, y: 4.5, z: 11.5}
+  m_LocalPosition: {x: -28, y: 4, z: 11.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3203,17 +3230,42 @@ SpriteRenderer:
   m_SortingLayerID: -1013106893
   m_SortingLayer: -1
   m_SortingOrder: -2
-  m_Sprite: {fileID: -1581199596, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  m_Sprite: {fileID: -1678801208, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 8, y: 9}
+  m_Size: {x: 8, y: 8}
   m_AdaptiveModeThreshold: 0.271
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!114 &852669705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852669702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c5d135866d4444088fd55baaa2ae03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisplaying: 1
+  frame: 2.497738
+  runInEditor: 1
+  fps: 4
+  frames:
+  - {fileID: 1529250110, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  - {fileID: 269408966, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  - {fileID: -1678801208, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  - {fileID: -252335539, guid: f32957f1d7ff837408d037d0a8dfcaa0, type: 3}
+  colorblindModeFrames: []
+  useUnscaledDelta: 0
+  sRenderer: {fileID: 852669704}
+  image: {fileID: 0}
 --- !u!1 &859204836
 GameObject:
   m_ObjectHideFlags: 0
@@ -4703,7 +4755,7 @@ GameObject:
   - component: {fileID: 1329789266}
   - component: {fileID: 1329789265}
   m_Layer: 21
-  m_Name: Overworld_Clouds
+  m_Name: Clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4718,8 +4770,8 @@ Transform:
   m_GameObject: {fileID: 1329789263}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.972, y: 2.9728, z: 90}
-  m_LocalScale: {x: 0.865, y: 0.865, z: 1}
+  m_LocalPosition: {x: 3.6090622, y: 2.5612, z: 90}
+  m_LocalScale: {x: 2.1, y: 2.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 61731049}
@@ -4736,7 +4788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8613f23c290a968479a4aa41c11a4e0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -0.025
+  speed: -0.0375
 --- !u!212 &1329789266
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4786,7 +4838,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.56, y: 1.28}
+  m_Size: {x: 5.12, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
