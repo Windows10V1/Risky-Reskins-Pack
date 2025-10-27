@@ -10772,7 +10772,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.06
+      scalar: 0.12
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -15418,6 +15418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ShapeModule.radiusThickness
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821550530333385025, guid: 34b8762c3868b5d43b40a69badde238a,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1821550530333385025, guid: 34b8762c3868b5d43b40a69badde238a,
         type: 3}
