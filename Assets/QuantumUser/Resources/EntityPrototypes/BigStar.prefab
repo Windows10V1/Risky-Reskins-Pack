@@ -948,6 +948,12 @@ PrefabInstance:
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 3094612392314655968, guid: d758aa65baab42b43ba031de88063bb7,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: -1457884201, guid: 8f2d9605707733e43a58b050ef08ef3f,
+        type: 3}
     - target: {fileID: 4113588847912301876, guid: d758aa65baab42b43ba031de88063bb7,
         type: 3}
       propertyPath: m_LocalPosition.x
